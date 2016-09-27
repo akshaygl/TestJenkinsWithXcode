@@ -62,6 +62,7 @@
     self.userInfoArray =(NSMutableArray *)[mainThreadContext executeFetchRequest:fetchRequest error:&error];
     if(error==nil)
         [self.recordTableView reloadData];
+    //dummmy comment
 }
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
